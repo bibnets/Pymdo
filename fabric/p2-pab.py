@@ -5,7 +5,7 @@ from fabric.contrib.console import confirm
 
 env.user='root'
 env.hosts='10.10.254.51'
-env.password='@ug6tso'
+env.password='abc'
 
 @task
 @runs_once
