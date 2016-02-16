@@ -3,7 +3,7 @@ from fabric.api import *
 
 env.user='root'
 env.hosts='10.10.254.51'
-env.password='@ug6tso'
+env.password='abc'
 
 @runs_once
 def local_task():
