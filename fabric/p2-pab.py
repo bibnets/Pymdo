@@ -3,9 +3,9 @@ from fabric.api import *
 from fabric.context_managers import *
 from fabric.contrib.console import confirm
 
-env.user='root'
+env.user='username'
 env.hosts='10.10.254.51'
-env.password='abc'
+env.password='password'
 
 @task
 @runs_once
