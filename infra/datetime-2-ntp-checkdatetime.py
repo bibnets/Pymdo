@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# compare datetime with windows.com
+
 import datetime
 import ntplib
 client = ntplib.NTPClient()
